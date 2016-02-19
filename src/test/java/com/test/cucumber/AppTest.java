@@ -8,7 +8,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 
 
-@CucumberOptions(plugin="html:target/cucumber-report.html")
+@CucumberOptions(plugin="json:target/cucumber-report.json")
 public class AppTest extends AbstractTestNGCucumberTests
    
 {
